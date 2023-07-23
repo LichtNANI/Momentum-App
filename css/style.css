@@ -1,0 +1,109 @@
+.hidden {
+  display: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+.todo-text {
+  margin-left: 10px;
+}
+
+.todo-button {
+  background-color: transparent;
+  border: none;
+}
+* {
+  margin: 10;
+  padding: 10;
+}
+#todo-list {
+  color: azure;
+  position: absolute;
+  /* text-decoration: line-through; */
+  top: 66%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 23px;
+}
+
+#todo-form input[type="text"] {
+  font-size: 25px;
+  outline: none;
+  position: absolute;
+  top: 600px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: aliceblue;
+  background-color: transparent;
+  border: none;
+  border-bottom: 4px solid whitesmoke;
+  outline: none;
+  text-align: center;
+}
+#greeting {
+  font-size: 50px;
+  color: aliceblue;
+  position: absolute;
+  top: 480px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#login-form input[type="text"] {
+  font-size: 40px;
+  outline: none;
+  position: absolute;
+  top: 520px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: aliceblue;
+  background-color: transparent;
+  border: none;
+  border-bottom: 4px solid whitesmoke;
+  outline: none;
+  text-align: center;
+}
+input::placeholder {
+  color: white;
+  text-align: center;
+}
+#clock {
+  font-size: 150px;
+  color: white;
+  position: absolute;
+  top: 16%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#quote {
+  font-size: 20px;
+  width: 1000px;
+  color: white;
+  position: absolute;
+  top: 89%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#quote span:first-child {
+  margin-bottom: 10px;
+}
+#weather {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  left: 90%;
+  top: 3%;
+}
+.todo-text.checked {
+  text-decoration: line-through;
+}
+.todo-checkbox {
+  margin-right: 5px;
+}
